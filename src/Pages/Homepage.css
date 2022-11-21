@@ -1,0 +1,22 @@
+.homepage-section{
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  flex-direction: column;
+  gap:10px;
+}
+
+button{
+  width: 200px;
+  height: 70px;
+  border-radius:15px;
+  color: black;
+  border: 1px solid white;
+  font-size: 20px;
+}
+
+h1{
+  color: white;
+}
