@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./GamePage.css";
 import axios from "axios";
+import Card from "../components/Card";
 
 function GamePage({ setIsLoading }) {
   const [cards, setCards] = useState([]);
@@ -24,6 +25,7 @@ function GamePage({ setIsLoading }) {
 
   function shuffle() {}
 
+<<<<<<< HEAD
   return (
     <div className="gamepage-section">
       <div className="gameboard"></div>
@@ -31,5 +33,12 @@ function GamePage({ setIsLoading }) {
     </div>
   );
 }
+=======
+  return <div className="gamepage-section">
+<div className="gameboard"></div>
+<div className="user-section"></div>
+<Card />
+    </div>;
+>>>>>>> 7e1ed6c1f44b6fa971954fcdff4405be533391c0
 
 export default GamePage;
